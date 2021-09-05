@@ -1,0 +1,9 @@
+D:\лабы по ООП\LP_Lab02\bin\Debug\LP_lab02.exe
+D:\лабы по ООП\LP_Lab02\bin\Debug\LP_lab02.pdb
+D:\лабы по ООП\LP_Lab02\obj\Debug\LP_lab02.csproj.AssemblyReference.cache
+D:\лабы по ООП\LP_Lab02\obj\Debug\LP_lab02.csproj.CoreCompileInputs.cache
+D:\лабы по ООП\LP_Lab02\obj\Debug\LP_lab02.exe
+D:\лабы по ООП\LP_Lab02\obj\Debug\LP_lab02.pdb
+D:\лабы по ООП\LP_lab02\bin\Debug\System.ValueTuple.dll
+D:\лабы по ООП\LP_lab02\bin\Debug\System.ValueTuple.xml
+D:\лабы по ООП\LP_lab02\obj\Debug\LP_lab02.csproj.CopyComplete
