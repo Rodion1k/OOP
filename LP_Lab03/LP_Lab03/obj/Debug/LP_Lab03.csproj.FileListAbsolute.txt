@@ -1,0 +1,6 @@
+D:\лабы 3 сем\OOP labs 3 sem\LP_Lab03\LP_Lab03\bin\Debug\LP_Lab03.exe
+D:\лабы 3 сем\OOP labs 3 sem\LP_Lab03\LP_Lab03\bin\Debug\LP_Lab03.pdb
+D:\лабы 3 сем\OOP labs 3 sem\LP_Lab03\LP_Lab03\obj\Debug\LP_Lab03.csproj.AssemblyReference.cache
+D:\лабы 3 сем\OOP labs 3 sem\LP_Lab03\LP_Lab03\obj\Debug\LP_Lab03.csproj.CoreCompileInputs.cache
+D:\лабы 3 сем\OOP labs 3 sem\LP_Lab03\LP_Lab03\obj\Debug\LP_Lab03.exe
+D:\лабы 3 сем\OOP labs 3 sem\LP_Lab03\LP_Lab03\obj\Debug\LP_Lab03.pdb
