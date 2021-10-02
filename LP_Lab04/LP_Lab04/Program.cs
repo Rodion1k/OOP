@@ -1,5 +1,5 @@
 ﻿using System;
-using LP_Lab04.Properties;
+using LP_Lab04;
 
 namespace LP_Lab04
 {
