@@ -3,7 +3,7 @@
   <Class Name="LP_Lab05.Computer" Collapsed="true">
     <Position X="7.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AACAAAAAAABAAAAUAAAAAAAAAAAAEUEAgAQABAAgAAA=</HashCode>
+      <HashCode>AACAAAAAAABAAAAUAAAAAAAAAAAEEUEAgAQABAAgAAA=</HashCode>
       <FileName>ProgrammingSoftware.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -11,7 +11,7 @@
   <Class Name="LP_Lab05.ProgrammingSoftware" Collapsed="true">
     <Position X="11.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAEAEAABAAAEAAABAA=</HashCode>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAEAEAABAAAEAAAAAA=</HashCode>
       <FileName>ProgrammingSoftware.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -39,14 +39,14 @@
   <Class Name="LP_Lab05.Sapper" Collapsed="true">
     <Position X="14.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>ProgrammingSoftware.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="LP_Lab05.Check" Collapsed="true">
     <Position X="10.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAAAAAAAACEAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAABAAAAAAAAAAAEiEAAAQAAAAAAAIAAAAAAAAAAAAA=</HashCode>
       <FileName>ProgrammingSoftware.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -93,18 +93,25 @@
       <FileName>ProgrammingSoftware.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="LP_Lab05.Printer" Collapsed="true">
+    <Position X="15" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>ProgrammingSoftware.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Interface Name="LP_Lab05.ICheckOperations" Collapsed="true">
     <Position X="8.25" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAACEAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProgrammingSoftware.cs</FileName>
+      <FileName>Interfaces.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="LP_Lab05.IOperationsWithPC" Collapsed="true">
     <Position X="6.5" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgAAAAAAgAAA=</HashCode>
-      <FileName>ProgrammingSoftware.cs</FileName>
+      <FileName>Interfaces.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />
