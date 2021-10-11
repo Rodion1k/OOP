@@ -4,13 +4,19 @@
     <projectFile>LP_Lab03/LP_Lab03.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1194e4d-be44-4f9d-8864-901e49720363" name="Changes" comment="" />
+    <list default="true" id="e1194e4d-be44-4f9d-8864-901e49720363" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../LP_Lab04/.idea/.idea.LP_Lab04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_Lab04/.idea/.idea.LP_Lab04/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1xp0grVdiDYJRmoMJpUzF1nixjk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,12 +65,14 @@
       <workItem from="1631978461313" duration="13000" />
       <workItem from="1632564684528" duration="319000" />
       <workItem from="1632565219626" duration="63000" />
+      <workItem from="1633174807641" duration="623000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
