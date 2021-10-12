@@ -1,116 +1,108 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="LP_Lab05.Computer" Collapsed="true">
+  <Class Name="LP_Lab05.Computer&lt;T&gt;" Collapsed="true">
     <Position X="7.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AACAAAAAAABAAAAUAAAAAAAAAAAEEUEAgAQABAAgAAA=</HashCode>
-      <FileName>ProgrammingSoftware.cs</FileName>
+      <HashCode>AACAAAAAAAhAAAAUAAAQAQAAAAEEEUEAgAQABAAgAAA=</HashCode>
+      <FileName>Conteiner.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="LP_Lab05.ProgrammingSoftware" Collapsed="true">
     <Position X="11.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAEAEAABAAAEAAAAAA=</HashCode>
-      <FileName>ProgrammingSoftware.cs</FileName>
+      <HashCode>AAAAACAAEAAAAAAEgAAAAAAAAAAFAMAABAAAEAAAAAA=</HashCode>
+      <FileName>Classes.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="LP_Lab05.Game" Collapsed="true">
     <Position X="14.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProgrammingSoftware.cs</FileName>
+      <FileName>Classes.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="LP_Lab05.WordProcessor" Collapsed="true">
     <Position X="11.25" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProgrammingSoftware.cs</FileName>
+      <FileName>Classes.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="LP_Lab05.Word" Collapsed="true">
     <Position X="12.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProgrammingSoftware.cs</FileName>
+      <FileName>Classes.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="LP_Lab05.Sapper" Collapsed="true">
     <Position X="14.5" Y="6.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProgrammingSoftware.cs</FileName>
+      <FileName>Classes.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="LP_Lab05.Check" Collapsed="true">
     <Position X="10.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAAAAAAAEiEAAAQAAAAAAAIAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProgrammingSoftware.cs</FileName>
+      <HashCode>AAABAAAAAAAAAAAACEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StaticOperations.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" />
   </Class>
   <Class Name="LP_Lab05.SystemProgrammingSoftware" Collapsed="true">
     <Position X="10.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProgrammingSoftware.cs</FileName>
+      <FileName>Classes.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="LP_Lab05.DirectX" Collapsed="true">
     <Position X="9" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProgrammingSoftware.cs</FileName>
+      <FileName>Classes.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="LP_Lab05.MaliciousProgrammingSoftware" Collapsed="true">
     <Position X="5.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProgrammingSoftware.cs</FileName>
+      <FileName>Classes.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="LP_Lab05.Virus" Collapsed="true">
     <Position X="5.75" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProgrammingSoftware.cs</FileName>
+      <FileName>Classes.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="LP_Lab05.CConficker" Collapsed="true">
     <Position X="5.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProgrammingSoftware.cs</FileName>
+      <FileName>Classes.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="LP_Lab05.Developer" Collapsed="true">
     <Position X="13" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ProgrammingSoftware.cs</FileName>
+      <FileName>Classes.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="LP_Lab05.Printer" Collapsed="true">
     <Position X="15" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
-      <FileName>ProgrammingSoftware.cs</FileName>
+      <FileName>Classes.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="LP_Lab05.ICheckOperations" Collapsed="true">
-    <Position X="8.25" Y="1" Width="1.5" />
+  <Interface Name="LP_Lab05.IOperationsWithPO" Collapsed="true">
+    <Position X="17" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAAAAAAAACEAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Interfaces.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Interface Name="LP_Lab05.IOperationsWithPC" Collapsed="true">
-    <Position X="6.5" Y="1" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgAAAAAAgAAA=</HashCode>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
       <FileName>Interfaces.cs</FileName>
     </TypeIdentifier>
   </Interface>

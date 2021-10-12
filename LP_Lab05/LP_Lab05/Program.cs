@@ -3,51 +3,79 @@ using System.Collections.Generic;
 
 namespace LP_Lab05
 {
+    class Tanks : Game
+    {
+        public Tanks(string name, float needRam, float needRom) : base(name, needRam, needRom)
+        {
+            this.name = name;
+            this.needRam = needRam;
+            this.needRom = needRom;
+            type = POTYPE.Game;
+        }
+    }
     internal class Program
     {
         public static void Main(string[] args)
         {
             // посмотреть, что еще нужно сделать в заданиях и разбрасать классы с интерфейсами по разным файлам
-            Computer pc = new Computer(20000,80000,"Asus");
+            Computer<ProgrammingSoftware> pc = new Computer<ProgrammingSoftware>(20000,80000,"Asus");
             pc.PrintInstalSofts();
             pc.PrintLaunchedSofts();
-            Word word = new Word("office2002",200,500);
+            Word word = new Word("office2002",200,500,"2002");
             Sapper sapper = new Sapper("sapper2001", 2000, 5000);
             WordProcessor wordProcessor = new WordProcessor("WPr",200,100,"1");
             CConficker conficker = new CConficker("CConfickerKEK", 200, 100);
-            DirectX directX = new DirectX("CConfickerKEK", 200, 100,"2");
+            DirectX directX = new DirectX("directX9.0", 200, 100,"9");
+            Games game;
+            Tanks tanks = new Tanks("tanks2001", 2000, 5000);
+            
+            
             pc.RunComputer();
             pc.Instal(word);
             pc.Instal(directX);
             pc.Instal(sapper);
+            pc.Delete(wordProcessor);
             pc.Instal(wordProcessor);
-            Console.Write("\nToString ");
-            Console.Write(pc.ToString());
-            Console.Write(" ToString\n");
-            pc.Instal(conficker);
+            pc.Delete(wordProcessor);
+            Console.Write("до сортировки \n");
+            pc.PrintInstalSofts();
+            pc.Sort();
+            Console.Write("после сортировки \n");
+            pc.PrintInstalSofts();
+            Console.Write(pc.FindNeedWordVersion("office2002","2002").name);
+            pc.TurnOffComputer();
+            
+            pc.RunComputer();
             sapper.Starting(pc);
             word.Starting(pc);
             sapper.Ending(pc);
+            pc.Instal(conficker);
             pc.PrintInstalSofts();
             pc.PrintLaunchedSofts();
+            
+            Console.Write("\nToString ");
+            Console.Write(pc.ToString());
+            Console.Write(" ToString\n");
+            
             Developer developer = new Developer();
             developer.CreatePO("Excellence");
             pc.TurnOffComputer();
-            Printer printer = new Printer();
             Console.Write("\n");
+            
+            Printer printer = new Printer();
             List<ProgrammingSoftware> list = new List<ProgrammingSoftware>(){sapper,word,directX};
             foreach (var aitem in list)
             {
                 printer.IAmPrinting(aitem);
             }
             
-            ICheckOperations obj = pc as ICheckOperations;
+            IOperationsWithPO obj = pc as IOperationsWithPO;
             if (obj != null)
                 Console.WriteLine("Тип Computer поддерживает интерфейс ICheckOperations");
             else
                 throw new Exception("интерфейс не поддерживается");
             
-            // IOperationsWithPC obj2 = word as IOperationsWithPC;
+            // IOperationsWithPO obj2 = word as IOperationsWithPO;
             // if (obj2 != null)
             //     Console.WriteLine("Тип Word поддерживает интерфейс IOperationsWithPC");
             // else
@@ -65,4 +93,5 @@ namespace LP_Lab05
                 throw new Exception("абстрактный класс  не поддерживается");
         }
     }
+    
 }
