@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using LP_Lab05.Exceptions;
+
 public enum POTYPE
 {
     Game,
@@ -52,7 +54,7 @@ namespace LP_Lab05
                 }
             }
 
-            Console.Write(name + "не запустилась!\n");
+            throw new PcExc("ПК выключен, ошибка\n");
         }
 
         public void Ending(Computer<ProgrammingSoftware> pc)
@@ -66,7 +68,7 @@ namespace LP_Lab05
 
     abstract class SystemProgrammingSoftware : ProgrammingSoftware
     {
-        public SystemProgrammingSoftware(string name, float needRom, float needRam) : base(name, needRom, needRam)
+        public SystemProgrammingSoftware(string name, float needRam, float needRom) : base(name, needRam, needRom)
         {
         }
 
@@ -75,7 +77,7 @@ namespace LP_Lab05
     class DirectX : SystemProgrammingSoftware
     {
        
-        public DirectX(string name, float needRom, float needRam, string version) : base(name, needRom, needRam)
+        public DirectX(string name, float needRam, float needRom, string version) : base(name, needRam, needRom)
         {
             this.version = version;
             type = POTYPE.SystemSoftware;
@@ -87,7 +89,7 @@ namespace LP_Lab05
     {
         private string _version;
 
-        public WordProcessor(string name, float needRom, float needRam, string version) : base(name, needRom, needRam)
+        public WordProcessor(string name, float needRam, float needRom, string version) : base(name, needRam, needRom)
         {
             this._version = version;
             type = POTYPE.SystemSoftware;
@@ -97,7 +99,7 @@ namespace LP_Lab05
 
     class Word : ProgrammingSoftware
     {
-        public Word(string name, float needRom, float needRam,string version) : base(name, needRom, needRam)
+        public Word(string name, float needRam, float needRom,string version) : base(name, needRam, needRom)
         {
             this.version = version;
             type = POTYPE.OtherSoftware;
@@ -111,7 +113,7 @@ namespace LP_Lab05
             }
             else
             {
-                throw new Exception("установите word proc\n");
+                throw new SoftExc("нету необходимого Системного ПО wordproc\n");
             }
         }
     }
@@ -121,7 +123,7 @@ namespace LP_Lab05
         public GameS gameInfo;
         public enum GameType
         {
-            shooter,
+            shooter=1,
             strategy,
             arcade,
         }
@@ -148,7 +150,7 @@ namespace LP_Lab05
             }
             else
             {
-                throw new Exception("установите DirectX\n");
+                throw new SoftExc("установите DirectX\n");
             }
         }
       
@@ -173,7 +175,7 @@ namespace LP_Lab05
 
     abstract class MaliciousProgrammingSoftware : SystemProgrammingSoftware
     {
-        public MaliciousProgrammingSoftware(string name, float needRom, float needRam) : base(name, needRom, needRam)
+        public MaliciousProgrammingSoftware(string name, float needRom, float needRam) : base(name, needRam, needRom)
         {
             type = POTYPE.SystemSoftware;
         }

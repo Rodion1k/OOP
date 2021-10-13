@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LP_Lab05.Exceptions;
+
 namespace LP_Lab05
 {
     public class Computer<T> where T:ProgrammingSoftware
@@ -32,7 +34,8 @@ namespace LP_Lab05
         {
             if (pc.ROMmemory - (pc.occupiedROM + rm) <= 0.05f * pc.ROMmemory)
             {
-                throw new Exception("недостаточно ПЗУ!!!\n");
+                throw new PcExc(
+                    $"недостаточно памяти на жестком диске!\n нужно: {occupiedROM + rm}, имеется: {ROMmemory} ");
             }
             return true;
         }
@@ -53,7 +56,7 @@ namespace LP_Lab05
             }
             else
             {
-                throw new Exception("недостаточно памяти");
+                throw new PcExc("ошибка установки, ПК выключен!\n");
             }
         }
 
@@ -94,7 +97,7 @@ namespace LP_Lab05
             }
             else
             {
-                throw new Exception("повторное включение ПК\n");
+                throw new PcExc("повторное включение ПК\n");
             }
         }
 

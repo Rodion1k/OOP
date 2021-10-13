@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using LP_Lab05.Exceptions;
 
 namespace LP_Lab05
 {
@@ -19,7 +20,8 @@ namespace LP_Lab05
         {
             if (pc.RAMmemory - (pc.occupiedRAM + rm) <= 0.05f * pc.RAMmemory)
             {
-                throw new Exception("недостаточно ОЗУ!!!\n");
+                throw new PcExc(
+                    $"недостаточно памяти на жестком диске!\n нужно: {pc.occupiedROM + rm}, имеется: {pc.ROMmemory} ");
             }
             return true;
         }
