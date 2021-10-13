@@ -25,6 +25,8 @@ namespace LP_Lab05
         public float needRom;
         public POTYPE type;
         public string version;
+     
+        
 
         public ProgrammingSoftware(string name, float needRam, float needRom)
         {
@@ -98,6 +100,7 @@ namespace LP_Lab05
         public Word(string name, float needRom, float needRam,string version) : base(name, needRom, needRam)
         {
             this.version = version;
+            type = POTYPE.OtherSoftware;
         }
 
         public override void Starting(Computer<ProgrammingSoftware> pc)
@@ -112,35 +115,29 @@ namespace LP_Lab05
             }
         }
     }
-    public struct Games
-    {
-        public Game _game;
-        public CLASSTYPE gametype;
-        
-       public Games(Game _game,CLASSTYPE gametype)
-       {
-           this._game = _game;
-           this.gametype = gametype;
-       }
-       
-       public enum CLASSTYPE
-       {
-           firstpublic,
-           second,
-       }
 
-        
-        // структура классов можно ли так если да то закинуть класс сапер и тд 
-    }
-    public class Game : ProgrammingSoftware // partial
+    public class Game : ProgrammingSoftware 
     {
+        public GameS gameInfo;
+        public enum GameType
+        {
+            shooter,
+            strategy,
+            arcade,
+        }
         
-        public Game(string name, float needRam, float needRom) : base(name, needRam, needRom)
+        public struct GameS
+        {
+            public GameType _type;
+        }
+      
+        public Game(string name, float needRam, float needRom,GameType tipe ) : base(name, needRam, needRom)
         {
             this.name = name;
             this.needRam = needRam;
             this.needRom = needRom;
             type = POTYPE.Game;
+            gameInfo._type = tipe;
         }
 
         public override void Starting(Computer<ProgrammingSoftware> pc)
@@ -154,12 +151,13 @@ namespace LP_Lab05
                 throw new Exception("установите DirectX\n");
             }
         }
+      
+
 
     }
-
     class Sapper : Game
     {
-        public Sapper(string name, float needRam, float needRom) : base(name, needRam, needRom)
+        public Sapper(string name, float needRam, float needRom,GameType tipe) : base(name, needRam, needRom,tipe)
         {
             this.name = name;
             this.needRam = needRam;
@@ -195,7 +193,7 @@ namespace LP_Lab05
         }
     }
 
-    class CConficker : Virus
+    sealed class CConficker : Virus
     {
         public CConficker(string name, float needRom, float needRam) : base(name, needRom, needRam)
         {
@@ -208,7 +206,7 @@ namespace LP_Lab05
         }
     }
 
-    sealed class Developer
+    partial class Developer
     {
         // создает ПО
         public void CreatePO(string name)

@@ -8,7 +8,6 @@ namespace LP_Lab05
     public class Computer<T> where T:ProgrammingSoftware
     {
         public float RAMmemory { get; set; }
-        
         public float ROMmemory { get; set; }
         public string name;
         public bool isWork;
@@ -17,8 +16,10 @@ namespace LP_Lab05
         public List<ProgrammingSoftware> LaunchedSoft;
         public List<ProgrammingSoftware> InstaledSoft;
         public List<ProgrammingSoftware> InstaledSystemSoft;
+       
         public Computer(float RAMmemory, float ROMmemory,string name)
         {
+            //controller.computers.Add(this);
             this.ROMmemory = ROMmemory;
             this.RAMmemory = RAMmemory;
             this.name = name;
@@ -140,6 +141,21 @@ namespace LP_Lab05
             {
                 Console.Write(software.GetType().Name + " " +software.name );
                 Console.WriteLine();
+            }
+        }
+
+        public void FindGamesType(Game.GameType gameType)
+        {
+            Console.Write("игры типа "+gameType+":\n");
+            foreach (var soft in InstaledSoft)
+            {
+                if (soft.type == POTYPE.Game)
+                {
+                    var tempsoft = (Game)soft;
+                    if(tempsoft.gameInfo._type == gameType)
+                        Console.Write(soft.name);
+                    Console.WriteLine();
+                }
             }
         }
 

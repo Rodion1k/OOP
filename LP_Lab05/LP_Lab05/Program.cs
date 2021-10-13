@@ -3,16 +3,17 @@ using System.Collections.Generic;
 
 namespace LP_Lab05
 {
-    class Tanks : Game
-    {
-        public Tanks(string name, float needRam, float needRom) : base(name, needRam, needRom)
-        {
-            this.name = name;
-            this.needRam = needRam;
-            this.needRom = needRom;
-            type = POTYPE.Game;
-        }
-    }
+    // class Tanks : Game
+    // {
+    //     private int l;
+    //     public Tanks(string name, float needRam, float needRom) : base(name, needRam, needRom)
+    //     {
+    //         this.name = name;
+    //         this.needRam = needRam;
+    //         this.needRom = needRom;
+    //         type = POTYPE.Game;
+    //     }
+    // }
     internal class Program
     {
         public static void Main(string[] args)
@@ -22,21 +23,19 @@ namespace LP_Lab05
             pc.PrintInstalSofts();
             pc.PrintLaunchedSofts();
             Word word = new Word("office2002",200,500,"2002");
-            Sapper sapper = new Sapper("sapper2001", 2000, 5000);
+            Sapper sapper = new Sapper("sapper2001", 2000, 5000,Game.GameType.arcade);
+            Game sapper2 = new Sapper("sapper2003", 2000, 5000,Game.GameType.arcade);
+            
             WordProcessor wordProcessor = new WordProcessor("WPr",200,100,"1");
             CConficker conficker = new CConficker("CConfickerKEK", 200, 100);
             DirectX directX = new DirectX("directX9.0", 200, 100,"9");
-            Games game;
-            Tanks tanks = new Tanks("tanks2001", 2000, 5000);
-            
-            
             pc.RunComputer();
             pc.Instal(word);
             pc.Instal(directX);
             pc.Instal(sapper);
-            pc.Delete(wordProcessor);
+            pc.Instal(sapper2);
+            pc.FindGamesType(Game.GameType.arcade);
             pc.Instal(wordProcessor);
-            pc.Delete(wordProcessor);
             Console.Write("до сортировки \n");
             pc.PrintInstalSofts();
             pc.Sort();
