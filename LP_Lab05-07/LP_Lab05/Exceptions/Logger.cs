@@ -6,7 +6,7 @@ namespace LP_Lab05.Exceptions
      class Logger
      {
          public static void WriteLog(Exception ex, bool ConsoleLog,
-             string file = @"D:\GitHub\OOP\LP_Lab05\LP_Lab05\Log.txt")
+             string file = @"D:\GitHub\OOP\LP_Lab05-07\LP_Lab05\Log.txt")
          {
              DateTime time = DateTime.Now;
              if (!ConsoleLog)

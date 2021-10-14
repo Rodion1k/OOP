@@ -67,7 +67,7 @@ namespace LP_Lab05
         public void ParseTextFile(Computer<ProgrammingSoftware> pc)
         {
             using StreamReader streamReader =
-                new StreamReader(@"D:\GitHub\OOP\LP_Lab05\LP_Lab05\ProgrammingSoftware.txt");
+                new StreamReader(@"D:\GitHub\OOP\LP_Lab05-07\LP_Lab05\ProgrammingSoftware.txt");
             
             while (streamReader.ReadLine() is string line)      // или  while (stream.ReadLine() is string line)
             {
@@ -92,7 +92,7 @@ namespace LP_Lab05
         public void ParseJsonFile(Computer<ProgrammingSoftware> pc)
         {
             using StreamReader streamReader =
-                new StreamReader(@"D:\GitHub\OOP\LP_Lab05\LP_Lab05\ProgrammingSoftware.json");
+                new StreamReader(@"D:\GitHub\OOP\LP_Lab05-07\LP_Lab05\ProgrammingSoftware.json");
             string json = streamReader.ReadToEnd();
             Game game = JsonConvert.DeserializeObject<Game>(json); // не получилось init type Game
         }
