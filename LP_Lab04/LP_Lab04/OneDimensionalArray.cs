@@ -21,8 +21,8 @@ namespace LP_Lab04
 
             Owner(string organization,string name)
             {
-                this._organization = organization;
-                this._name = name;
+                _organization = organization;
+                _name = name;
                 _id++;
             }
 
@@ -61,6 +61,8 @@ namespace LP_Lab04
                 if(index>Length-1)
                     Length++;
                 number[index] = value;
+                if (value < 0)
+                    trueArray = false;
             }
         }
 
@@ -108,13 +110,17 @@ namespace LP_Lab04
 
         public static bool operator true(Array arr)
         {
-           
-            return arr.trueArray;
+           for(int i=0;i<arr.Length;i++)
+               if (arr[i] < 0)
+                   return false;
+           return true;
         }
         public static bool operator false(Array arr)
         {
-            
-            return arr.trueArray;
+            for(int i=0;i<arr.Length;i++)
+                if (arr[i] < 0)
+                    return true;
+            return false;
         }
 
         public static implicit operator int(Array array) // неявное преобразование
@@ -172,11 +178,6 @@ namespace LP_Lab04
                 return false;
             }
         }
-       
-
-
-
-
-
+  
     }
 }

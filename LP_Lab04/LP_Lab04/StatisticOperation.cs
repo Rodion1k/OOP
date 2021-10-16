@@ -7,20 +7,24 @@ namespace LP_Lab04
     {
         public static void DeleteNegativeValue(Array array)
         {
-            for (int i = 0; i < array.Length; i++)
+            for (int i = array.Length - 1; i >=0 ; i--)
             {
                 if (array[i] < 0)
                 {
-                    array[i] = array[i + 1];
-                    // удалить элемент 
+                    for (int j = i; j < array.Length; j++)
+                    {
+                        array[j] = array[j + 1];
+                    }
+            
                     array.Length--;
                 }
             }
-       
+            
         }
 
         public static void PrintArray(Array array)
         {
+            Console.WriteLine("массив: ");
             for (int i = 0; i < array.Length; i++)
             {
                 Console.Write(array[i]+" ");
@@ -42,6 +46,7 @@ namespace LP_Lab04
 
         public static int ArraySum(Array array)
         {
+            Console.WriteLine("сумма массива: ");
             int sum = 0;
             for (int i = 0; i < array.Length; i++)
             {
