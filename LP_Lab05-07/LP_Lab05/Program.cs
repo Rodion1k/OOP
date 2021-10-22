@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using LP_Lab05.Exceptions;
 namespace LP_Lab05
 {

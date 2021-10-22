@@ -52,6 +52,7 @@ namespace LP_Lab03
       Console.Write(Vector.MethodAbout());
 
 
+      
 
     }
 

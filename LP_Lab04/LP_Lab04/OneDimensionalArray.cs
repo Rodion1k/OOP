@@ -41,16 +41,13 @@ namespace LP_Lab04
 
         // private int[] number = new int[10];
         private int[] number;
-        private string[] str = new string[10];
+        //private string[] str = new string[10];
 
 
         public int this[int index]
         {
 
-            get
-            {
-                return number[index];
-            }
+            get => number[index];
             set
             {
                 if (!isHasSize)

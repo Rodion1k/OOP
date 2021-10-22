@@ -5,38 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf3598fb-1f17-49e7-b7c9-cbb6e38fe1ff" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../LP_Lab03/.idea/.idea.LP_Lab03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_Lab03/.idea/.idea.LP_Lab03/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LP_Lab03/LP_Lab03/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_Lab03/LP_Lab03/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LP_Lab03/LP_Lab03/bin/Debug/LP_Lab03.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_Lab03/LP_Lab03/bin/Debug/LP_Lab03.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LP_Lab03/LP_Lab03/bin/Debug/LP_Lab03.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_Lab03/LP_Lab03/bin/Debug/LP_Lab03.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LP_Lab03/LP_Lab03/obj/Debug/LP_Lab03.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_Lab03/LP_Lab03/obj/Debug/LP_Lab03.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LP_Lab03/LP_Lab03/obj/Debug/LP_Lab03.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_Lab03/LP_Lab03/obj/Debug/LP_Lab03.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LP_Lab03/LP_Lab03/obj/Debug/LP_Lab03.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_Lab03/LP_Lab03/obj/Debug/LP_Lab03.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LP_Lab04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LP_Lab04/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/LP_Lab04/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/LP_Lab04/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LP_Lab04/LP_Lab04.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LP_Lab04/LP_Lab04.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LP_Lab04/OneDimensionalArray.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LP_Lab04/OneDimensionalArray.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LP_Lab04/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LP_Lab04/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LP_Lab04/StatisticOperation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LP_Lab04/StatisticOperation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LP_Lab04/bin/Debug/LP_Lab04.exe" beforeDir="false" afterPath="$PROJECT_DIR$/LP_Lab04/bin/Debug/LP_Lab04.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LP_Lab04/bin/Debug/LP_Lab04.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LP_Lab04/bin/Debug/LP_Lab04.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LP_Lab04/obj/Debug/LP_Lab04.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LP_Lab04/obj/Debug/LP_Lab04.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LP_Lab04/obj/Debug/LP_Lab04.exe" beforeDir="false" afterPath="$PROJECT_DIR$/LP_Lab04/obj/Debug/LP_Lab04.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LP_Lab04/obj/Debug/LP_Lab04.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LP_Lab04/obj/Debug/LP_Lab04.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/.idea/.idea.LP_Lab05/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/ClassDiagram1.cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/Classes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/Conteiner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/Exceptions/Logger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/Exceptions/PcExc.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/Exceptions/SoftExc.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/Interfaces.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/LP_Lab05.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/Log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/ProgrammingSoftware.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/ProgrammingSoftware.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/StaticOperations.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/obj/Debug/LP_Lab05.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab05/LP_Lab05/packages.config" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +86,8 @@
       <workItem from="1634224057269" duration="394000" />
       <workItem from="1634329908449" duration="333000" />
       <workItem from="1634340529492" duration="4056000" />
+      <workItem from="1634384512785" duration="522000" />
+      <workItem from="1634386728028" duration="546000" />
     </task>
     <task id="LOCAL-00001" summary="lab4">
       <created>1633162584394</created>
@@ -138,24 +121,5 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="lab4" />
     <option name="LAST_COMMIT_MESSAGE" value="lab4" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/LP_Lab04/Program.cs</url>
-          <line>19</line>
-          <properties documentPath="D:\GitHub\OOP\LP_Lab04\LP_Lab04\Program.cs" initialLine="19" containingFunctionPresentation="method 'Main'">
-            <startOffsets>
-              <option value="492" />
-            </startOffsets>
-            <endOffsets>
-              <option value="525" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
