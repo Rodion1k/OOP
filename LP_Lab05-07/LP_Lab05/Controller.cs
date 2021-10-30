@@ -6,7 +6,10 @@ using Newtonsoft.Json;
 
 namespace LP_Lab05
 {
-   
+    partial class Developer
+    {
+        
+    }
     public class Controller
     {
         public List<Computer<ProgrammingSoftware>> computers;
@@ -94,7 +97,7 @@ namespace LP_Lab05
             using StreamReader streamReader =
                 new StreamReader(@"D:\GitHub\OOP\LP_Lab05-07\LP_Lab05\ProgrammingSoftware.json");
             string json = streamReader.ReadToEnd();
-            Game game = JsonConvert.DeserializeObject<Game>(json); // не получилось init type Game
+            Game game = JsonConvert.DeserializeObject<Game>(json); 
         }
 
         private string GetParms(ref string line)

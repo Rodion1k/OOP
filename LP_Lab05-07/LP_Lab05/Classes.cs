@@ -131,6 +131,7 @@ namespace LP_Lab05
         public struct GameS
         {
             public GameType _type;
+            
         }
       
         public Game(string name, float needRam, float needRom,GameType tipe ) : base(name, needRam, needRom)

@@ -21,7 +21,6 @@ namespace LP_Lab05
        
         public Computer(float RAMmemory, float ROMmemory,string name)
         {
-            //controller.computers.Add(this);
             this.ROMmemory = ROMmemory;
             this.RAMmemory = RAMmemory;
             this.name = name;

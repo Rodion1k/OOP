@@ -4,17 +4,7 @@ using System.ComponentModel.Design;
 using LP_Lab05.Exceptions;
 namespace LP_Lab05
 {
-    // class Tanks : Game
-    // {
-    //     private int l;
-    //     public Tanks(string name, float needRam, float needRom) : base(name, needRam, needRom)
-    //     {
-    //         this.name = name;
-    //         this.needRam = needRam;
-    //         this.needRom = needRom;
-    //         type = POTYPE.Game;
-    //     }
-    // }
+ 
     internal class Program
     {
 
@@ -22,10 +12,6 @@ namespace LP_Lab05
         {
             try
             {
-
-
-
-                // посмотреть, что еще нужно сделать в заданиях и разбрасать классы с интерфейсами по разным файлам
                 Computer<ProgrammingSoftware> pc = new Computer<ProgrammingSoftware>(20000, 80000, "Asus");
                 pc.PrintInstalSofts();
                 pc.PrintLaunchedSofts();
@@ -47,6 +33,7 @@ namespace LP_Lab05
                 pc.Sort();
                 Console.Write("после сортировки \n");
                 pc.PrintInstalSofts();
+                pc.Delete(sapper2);
                 Console.Write(pc.FindNeedWordVersion("office2002", "2002").name);
                 pc.TurnOffComputer();
 
@@ -83,12 +70,8 @@ namespace LP_Lab05
                 pc2.RunComputer();
                 controller.ParseTextFile(pc2);
                 controller.ParseJsonFile(pc2);
-
-
-
-
-
-
+                controller.DelPc(pc2);
+                
                 IOperationsWithPO obj = pc as IOperationsWithPO;
                 if (obj != null)
                     Console.WriteLine("Тип Computer поддерживает интерфейс ICheckOperations");
@@ -123,7 +106,6 @@ namespace LP_Lab05
             catch (Exception ex)
             {
                 Console.Write(ex.Message);
-
             }
             finally
             {
