@@ -58,6 +58,15 @@ namespace LP_lab02
             CheckedAndUnchecked();
             UsingCortageFunction();
             Console.WriteLine("**********************КОНЕЦ ЛАБЫ***********************");
+            int lal = 2;
+            int mem;
+            kek(lal, out mem);
+        }
+
+        private static int kek(int x, out int y)
+        {
+            y = 4;
+            return x;
         }
 
         /////////////типы///////////////////
@@ -239,8 +248,8 @@ namespace LP_lab02
             int[,] arr = new int[3, 3] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
             for (int i = 0; i < arr.GetLength(0); i++)
             {
-                for (int j = 0; j < arr.GetLength(1); j++)
-                {
+                for (int j = 0; j < arr.GetLength(1); j++)  // 1 2 3
+                {                                                   // 4 5 6
                     Console.Write(arr[i, j] + "\t");
                 }
 

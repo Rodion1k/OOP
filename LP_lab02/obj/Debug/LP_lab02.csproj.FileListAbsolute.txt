@@ -7,3 +7,12 @@ D:\лабы по ООП\LP_Lab02\obj\Debug\LP_lab02.pdb
 D:\лабы по ООП\LP_lab02\bin\Debug\System.ValueTuple.dll
 D:\лабы по ООП\LP_lab02\bin\Debug\System.ValueTuple.xml
 D:\лабы по ООП\LP_lab02\obj\Debug\LP_lab02.csproj.CopyComplete
+D:\GitHub\OOP\LP_lab02\bin\Debug\LP_lab02.exe
+D:\GitHub\OOP\LP_lab02\bin\Debug\LP_lab02.pdb
+D:\GitHub\OOP\LP_lab02\bin\Debug\System.ValueTuple.dll
+D:\GitHub\OOP\LP_lab02\bin\Debug\System.ValueTuple.xml
+D:\GitHub\OOP\LP_lab02\obj\Debug\LP_lab02.csproj.AssemblyReference.cache
+D:\GitHub\OOP\LP_lab02\obj\Debug\LP_lab02.csproj.CoreCompileInputs.cache
+D:\GitHub\OOP\LP_lab02\obj\Debug\LP_lab02.csproj.CopyComplete
+D:\GitHub\OOP\LP_lab02\obj\Debug\LP_lab02.exe
+D:\GitHub\OOP\LP_lab02\obj\Debug\LP_lab02.pdb

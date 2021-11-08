@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 namespace LP_Lab09
 {
+   
     public class User
     {
         

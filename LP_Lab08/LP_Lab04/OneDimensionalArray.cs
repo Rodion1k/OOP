@@ -81,6 +81,7 @@ namespace LP_Lab04
             foreach (var item in number)
             {
                 Console.WriteLine(item);
+                if(item is null) return;
             }
         }
 

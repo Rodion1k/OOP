@@ -19,6 +19,7 @@ namespace LP_Lab04
         kek.Show();
         kek.Del(newgame);
         kek.Show();
+        Console.WriteLine("второй массив");
         string mam = "mam";
         Array<string> strArray = new Array<string>(10);
         strArray.Add(mam,0);

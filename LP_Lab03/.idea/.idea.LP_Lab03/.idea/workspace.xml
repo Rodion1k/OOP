@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1194e4d-be44-4f9d-8864-901e49720363" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/LP_Lab03/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LP_Lab03/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LP_Lab03/bin/Debug/LP_Lab03.exe" beforeDir="false" afterPath="$PROJECT_DIR$/LP_Lab03/bin/Debug/LP_Lab03.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LP_Lab03/bin/Debug/LP_Lab03.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LP_Lab03/bin/Debug/LP_Lab03.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LP_Lab03/obj/Debug/LP_Lab03.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LP_Lab03/obj/Debug/LP_Lab03.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LP_Lab03/obj/Debug/LP_Lab03.exe" beforeDir="false" afterPath="$PROJECT_DIR$/LP_Lab03/obj/Debug/LP_Lab03.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LP_Lab03/obj/Debug/LP_Lab03.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LP_Lab03/obj/Debug/LP_Lab03.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LP_Lab04/.idea/.idea.LP_Lab04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_Lab04/.idea/.idea.LP_Lab04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LP_Lab08/LP_Lab04/Generic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_Lab08/LP_Lab04/Generic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LP_Lab08/LP_Lab04/OneDimensionalArray.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_Lab08/LP_Lab04/OneDimensionalArray.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LP_Lab08/LP_Lab04/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_Lab08/LP_Lab04/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LP_Lab09/LP_Lab09/Classes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_Lab09/LP_Lab09/Classes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LP_lab02/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_lab02/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LP_lab02/bin/Debug/LP_lab02.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_lab02/bin/Debug/LP_lab02.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LP_lab02/bin/Debug/LP_lab02.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_lab02/bin/Debug/LP_lab02.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LP_lab02/obj/Debug/LP_lab02.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_lab02/obj/Debug/LP_lab02.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LP_lab02/obj/Debug/LP_lab02.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_lab02/obj/Debug/LP_lab02.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LP_lab02/obj/Debug/LP_lab02.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_lab02/obj/Debug/LP_lab02.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LP_lab02/obj/Debug/LP_lab02.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../LP_lab02/obj/Debug/LP_lab02.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +77,7 @@
       <workItem from="1632565219626" duration="63000" />
       <workItem from="1633174807641" duration="623000" />
       <workItem from="1634384623618" duration="356000" />
+      <workItem from="1636406665918" duration="137000" />
     </task>
     <servers />
   </component>
