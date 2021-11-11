@@ -51,11 +51,11 @@ namespace LP_Lab12
 
         private static void ReadFromFile(ref List<string> list)
         {
-            using (StreamReader reader = new StreamReader(@"D:\GitHub\OOP\LP_Lab12\LP_Lab12\kek.txt"))
-            {
+            using StreamReader reader = new StreamReader(@"D:\GitHub\OOP\LP_Lab12\LP_Lab12\kek.txt");
+            
                 while (!reader.EndOfStream)
                     list.Add(reader.ReadLine());
-            }
+            
         }
         
     }
