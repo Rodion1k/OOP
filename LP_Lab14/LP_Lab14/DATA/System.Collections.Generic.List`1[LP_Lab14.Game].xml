@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ArrayOfGame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Game>
+    <name>world of tanks</name>
+    <needRam>100</needRam>
+    <needRom>3000</needRom>
+  </Game>
+  <Game>
+    <name>world of warships</name>
+    <needRam>200</needRam>
+    <needRom>4404</needRom>
+  </Game>
+  <Game>
+    <name>world of warplanes</name>
+    <needRam>400</needRam>
+    <needRom>5000</needRom>
+  </Game>
+</ArrayOfGame>

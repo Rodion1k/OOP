@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<games>
+  <game name="plane20">
+    <releaseYear>2020</releaseYear>
+  </game>
+  <game name="ship10">
+    <releaseYear>2010</releaseYear>
+  </game>
+</games>
